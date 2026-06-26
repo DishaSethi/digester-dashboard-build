@@ -1,0 +1,25 @@
+# --- Frontend (digester-dashboard-build) ---
+digester-dashboard-build/node_modules/
+digester-dashboard-build/.next/
+digester-dashboard-build/.vercel/
+digester-dashboard-build/.v0-trash/
+digester-dashboard-build/.snowflake/
+
+# v0 sandbox internal files
+__v0_runtime_loader.js
+__v0_devtools.tsx
+__v0_jsx-dev-runtime.ts
+
+# --- Backend (digester-backend) ---
+digester-backend/venv/
+digester-backend/**/__pycache__/
+digester-backend/**/*.py[cod]
+digester-backend/.env
+digester-backend/.env*.local
+
+# --- Global / Environment ---
+.env
+.env.local
+.DS_Store
+.vscode/
+.idea/
